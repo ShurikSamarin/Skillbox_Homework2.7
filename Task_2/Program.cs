@@ -1,0 +1,20 @@
+﻿// See https://aka.ms/new-console-template for more information
+//Console.WriteLine("Hello, World!");
+string fullName = "Burtsev Alexander Borisovich";
+int age = 51;
+string email = "sttp2002@gmail.com";
+double progBall = 71.5;
+double mathBall = 55.3;
+double physBall = 46.7;
+Console.WriteLine("FIO: "+fullName);
+Console.WriteLine("Age: "+age);
+Console.WriteLine("Email: "+email);
+Console.WriteLine("Programming scores: "+progBall);
+Console.WriteLine("Math scores: "+mathBall);
+Console.WriteLine("Physics scores: "+physBall);
+Console.WriteLine("");
+Console.ReadKey();
+double sum = progBall+mathBall+physBall;
+double averageSum = sum/3;
+double result = Convert.ToDouble(Math.Round(averageSum,1));
+Console.WriteLine("Average scores: "+result);
